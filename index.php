@@ -1,3 +1,10 @@
+<?php   
+// include "dbcontrol.php";
+include "controls.php";
+$controls=new control();
+$card_data=$controls->show_category();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -113,6 +120,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                 </div>
                 <div class="row">
                   <!-- ... (repeat for other game items) ... -->
+<<<<<<< HEAD:index.html
 
                   <div class="col-lg-3">
                     <div class="item">
@@ -144,6 +152,25 @@ https://templatemo.com/tm-579-cyborg-gaming
                       </ul>
                     </div>
                   </div>
+=======
+<section>
+<div class="col-lg-3">
+  <?php foreach($card_data as $y){?>
+    <div class="item">
+      <img src= <?php echo $y['image_path'] ?>>
+      <h4><?php echo $y['c_name'] ?></h4>
+      <p><?php echo $y['c_des'] ?></p>
+      <ul>
+        <li><i class="fa fa-star"></i> 4.8</li>
+        <li><i class="fa fa-download"></i> 2.3M</li>
+      </ul>
+    </div>
+  <?php
+     }
+     ?>
+     </div>
+</section>
+>>>>>>> 49fc4b7657ad205a345cdac18740c52aced2957f:index.php
                   <!-- ... (repeat for other game items) ... -->
                   <div class="col-lg-12">
                     <div class="main-button">
