@@ -2,6 +2,8 @@
     margin: 4% 0px 0px 0px;
     
   }
+ 
+  
 
   .heading-section h4 {
     font-style: italic;
@@ -36,6 +38,25 @@
     
   }
 
+  @media only screen and (max-width: 700px)
+  {
+    .col-lg-3,
+  .col-lg-6 {
+margin-left: -10%;
+
+  }
+
+  .most-popular .item {
+    background-color: #1f2122;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+  
   .item {
     /* background-color: #f9f9f9;
     border: 1px solid #ddd; */
@@ -43,6 +64,7 @@
     width: 300px;
     margin-bottom: 20px;
     min-height: 450px;
+
 
   }
 
