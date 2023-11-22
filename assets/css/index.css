@@ -30,6 +30,8 @@
     box-sizing: border-box;
     padding: 10px;
     margin-bottom: -2%;
+    margin-right: 7%;
+    padding-left: 5%;
     
     
   }
@@ -38,9 +40,7 @@
     /* background-color: #f9f9f9;
     border: 1px solid #ddd; */
     display: inline-block;
-    margin: 50 5px 0 50px;
     width: 300px;
-    padding: 15px;
     margin-bottom: 20px;
     min-height: 450px;
 
@@ -57,7 +57,7 @@
 
   .item h4 {
 padding-top: 10px;
-padding-left: 85px;
+padding-left: 100px;
 
   }
 
@@ -68,7 +68,7 @@ padding-left: 85px;
 
   .item ul {
     list-style: none;
-    padding-right: 55px;
+    padding-right: 75px;
 
   }
 
