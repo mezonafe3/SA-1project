@@ -18,8 +18,8 @@ th {
 }
 
 td {
-    background-color: #ecf0f1;
-    color: #333;
+    background-color: #27292a;
+    color: rgb(255, 255, 255);
     transition: background-color 0.3s ease;
 }
 
