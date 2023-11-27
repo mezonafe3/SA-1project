@@ -4,13 +4,12 @@ body{
     /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-.container{
+.containerr{
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
     position: relative;
     margin-top: 0%;
-    width: 1100px;
 }
 label{
     font-size: 60px;
@@ -37,7 +36,7 @@ table{
 .row1
 {
     background:#8e8c8c;
-    margin-bottom: 50;
+   
 }
 .row2
 {
@@ -51,8 +50,9 @@ table{
 }
 .sub-butt-d
 {
-    position: absolute;
-    margin-top: 6%;
+    position:absolute;
+    margin-top: 8%;
+    margin-left: 37%;
 }
 .sub-butt{
     background-color: #c70050; /* Green */
