@@ -1,0 +1,33 @@
+.ticket-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin-left: 36%;
+    
+  }
+
+  .ticket-header {
+    background-color: #e93e7a;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .ticket-details {
+    padding: 20px;
+  }
+
+  .ticket-details p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .ticket-footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+  }
+
+ 
