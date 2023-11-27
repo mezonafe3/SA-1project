@@ -1,33 +1,49 @@
-.ticket-card {
+.col-lg-12
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.page-content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+
+
+}
+  
+  .ticket-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
-    margin-left: 36%;
+    margin-left: 5%; /* Changed margin-left to 12% to center the cards horizontally */
+    margin-bottom: 2%;
     
   }
-
+  
   .ticket-header {
     background-color: #e93e7a;
     color: #fff;
     padding: 15px;
     text-align: center;
   }
-
+  
   .ticket-details {
     padding: 20px;
   }
-
+  
   .ticket-details p {
     margin: 0;
     line-height: 1.5;
   }
-
+  
   .ticket-footer {
     background-color: #f2f2f2;
     padding: 15px;
     text-align: center;
   }
-
- 
+  
